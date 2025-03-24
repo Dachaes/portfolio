@@ -11,9 +11,7 @@ export default function Home() {
         opacity: 0.9,
       }}
     >
-      <Window>
-        <p>내용</p>
-      </Window>
+      <Window/>
     </div>
   );
 }

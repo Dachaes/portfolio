@@ -35,7 +35,7 @@ export default function Menu() {
   return (
     <div>
       <div
-        className="w-full flex items-center justify-between fixed top-0 left-0 h-8 px-4 text-[#eeeeee] text-sm z-50"
+        className="w-full flex items-center justify-between fixed top-0 left-0 h-9 px-4 text-[#eeeeee] text-sm z-50"
         style={{
           backgroundColor: "rgba(10, 10, 10, 0.65)",
          }}
