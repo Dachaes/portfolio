@@ -102,8 +102,13 @@ export default function WindowLayout({ children }: { children: React.ReactNode; 
             alt="refresh"
             className="w-4 h-4 object-contain filter scale-x-[-1]"
           />
-          <div className="w-full mx-1 h-7 px-4 flex items-center gap-2 rounded-xl bg-[#eeeeee] border border-gray-300">
+          <div className="w-full mx-1 h-7 px-4 flex items-center justify-between gap-2 rounded-xl bg-[#eeeeee] border border-gray-300">
             <p className="text-[14px]">{link}</p>
+            <img
+              src="/icons/star.png"
+              alt="star"
+              className="w-4 h-4 object-contain filter scale-x-[-1]"
+            />
           </div>
           <img
             src="/icons/ellipsis-vertical.png"
@@ -114,7 +119,7 @@ export default function WindowLayout({ children }: { children: React.ReactNode; 
 
 
         {/* 윈도우 안 단 */}
-        <div className="p-4 h-150 bg-[#eeeeee] text-[#111111]">
+        <div className="p-5 h-190 bg-[#eeeeee] text-[#111111]">
           {children}
         </div>
       </div>

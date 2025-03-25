@@ -1,5 +1,6 @@
 // Icons from "https://lucide.dev/"
 // Images from "https://wallhaven.cc/", "https://pixabay.com/"
+
 import Window from "@/components/system-ui/Window";
 
 export default function Home() {
@@ -11,7 +12,7 @@ export default function Home() {
         opacity: 0.9,
       }}
     >
-      <Window/>
+      <Window />
     </div>
   );
 }

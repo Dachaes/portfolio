@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import ClientLayout from "./ClientLayout";
+import Start from "@/components/start/Start";
 import Menu from "@/components/system-ui/Menu";
 import Dock from "@/components/system-ui/Dock";
 
@@ -30,6 +31,7 @@ export default function RootLayout({
     <html lang="en">
         <body className="overflow-hidden">
           <ClientLayout>
+            <Start />
             <Menu />
             {children}
             <Dock />
